@@ -1,4 +1,4 @@
-describe('Filters', function(){ //describe your object type
+/**describe('Filters', function(){ //describe your object type
     beforeEach(module('MyApp')); //load module
     describe('reverse',function(){ //describe your app name
         var reverse;
@@ -11,4 +11,11 @@ describe('Filters', function(){ //describe your object type
             //expect(reverse('jam')).toBe('oops'); // this test should fail
         });
     });
+});
+**/
+
+describe("A suite", function() {
+  it("contains spec with an expectation", function() {
+    expect(true).toBe(true);
+  });
 });
