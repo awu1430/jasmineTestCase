@@ -12,7 +12,7 @@
   "author": "chaitanya",
   "license": "ISC",
   "devDependencies": {
-    "karma": "^0.13.9",
-    "karma-chrome-launcher": "^0.2.0"
+   // "karma": "^0.13.9",
+   // "karma-chrome-launcher": "^0.2.0"
   }
 }
