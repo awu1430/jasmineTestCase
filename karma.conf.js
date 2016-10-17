@@ -20,7 +20,7 @@ module.exports = function(config) {
       'bower_components/angular-resource/angular-resource.js',
       'app/**/*.js',
         {
-            pattern: 'test/**/*.js'
+            pattern: 'test/**/dropdowmMulti.js'
         }
     ],
 
