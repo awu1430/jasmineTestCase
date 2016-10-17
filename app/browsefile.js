@@ -47,7 +47,7 @@
     }
 });*/
  
-//var myApp = angular.module('cetsApp', []);
+var myApp = angular.module('cetsApp', []);
 cetsApp.directive('customOnChange', function() {
   return {
     restrict: 'A',
