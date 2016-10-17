@@ -8,7 +8,7 @@ describe('Filters', function(){ //describe your object type
         it('Should reverse a string', function(){  //write tests
             expect(reverse('rahil')).toBe('lihar'); //pass
             expect(reverse('don')).toBe('nod'); //pass
-            //expect(reverse('jam')).toBe('oops'); // this test should fail
+            expect(reverse('jam')).toBe('oops'); // this test should fail
         });
     });
 });
